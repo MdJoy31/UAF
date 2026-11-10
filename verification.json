@@ -1,0 +1,72 @@
+{
+  "verification_date": "2026-11-10",
+  "notebook": "UAF_Reviewer_Evidence.ipynb",
+  "notebook_sha256": "85c123dd3efda1fc53aae06e46114aa59c2639764c114ba0d97c3b2817341d90",
+  "execution": {
+    "elapsed_seconds": 35.59210380000877,
+    "cells": 127,
+    "executed_code_cells": 68,
+    "error_outputs": 0,
+    "execution_directory": "fresh temporary directory",
+    "external_files_required": false
+  },
+  "main_table_numeric_cells_checked": 317,
+  "assertion_groups_passed": 17,
+  "embedded_aggregate_datasets": 57,
+  "main_tables": 12,
+  "companion_tables": 101,
+  "main_figures": 3,
+  "companion_figure_occurrences": 7,
+  "new_result_plots": 3,
+  "tested_python": "3.11.9",
+  "dependencies": {
+    "numpy": "2.4.2",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.8",
+    "ipython": "9.10.0",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.4",
+    "nbconvert": "7.17.0",
+    "ipykernel": "7.2.0"
+  },
+  "matched_document_snapshots": {
+    "Main paper": {
+      "filename": "Uncertainty_Aware_Fairness_Professor_Review_20261110.pdf",
+      "sha256": "e28e302acf13d4d0a1d0e730a889371746dae018a0204a2d497b45fcbd56e065",
+      "pages": 15
+    },
+    "Technical companion": {
+      "filename": "Overleaf_Compiled_Companion_20261102.pdf",
+      "sha256": "90240b27c3eb7a21932406a9615ef26aeaea9273b573a315cde1bb90ca3e926f",
+      "pages": 129
+    }
+  },
+  "scope": {
+    "freshly_computed": [
+      "234 count-law family forecasts",
+      "Conditional source risks and sufficient counts",
+      "Allocation recurrence checked against exhaustive enumeration",
+      "42000 exact pooled policy decisions"
+    ],
+    "reaggregated": [
+      "39200 matched-method records",
+      "800 planning records",
+      "160 planning forecast decisions",
+      "640 factorial pilot configurations",
+      "Recorded alternative policy-review results"
+    ],
+    "reported_from_saved_evidence": [
+      "Training and audit settings",
+      "Runtime and memory measurements",
+      "Companion derivations, historical results and figures"
+    ],
+    "not_rerun": [
+      "Raw cohort extraction",
+      "Predictive-model training",
+      "Full clinical allocation simulations",
+      "Original hardware timing benchmarks",
+      "Independent hospital-population validation"
+    ]
+  }
+}
