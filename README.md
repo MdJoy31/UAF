@@ -25,6 +25,6 @@ The notebook is self-contained: aggregate inputs and figures are embedded. After
 
 ## Notebook contents
 
-Running the notebook recalculates exact count-law probabilities, conditional source quantities, an allocation-algorithm example and exact pooled policy decisions. The remaining tables are reconstructed from included aggregate experiment records; model fits and runtime benchmarks are provided as recorded results.
+Running the notebook recalculates exact count-law probabilities, conditional source quantities, an allocation-algorithm example and exact pooled policy decisions. The remaining tables are reconstructed from included aggregate experiment records. Model fits, runtime and memory benchmarks, bootstrap-law results and the two external audit adapters (the Cherian and Candès bootstrap and the Uncertainty Matters wrapper) are provided as recorded results; the adapter code is not included in this repository.
 
 [manifest.json](manifest.json) lists the package contents, software environment and notebook checksum. No patient-level data are distributed; access to the original clinical datasets remains subject to their providers' conditions.

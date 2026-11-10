@@ -1,8 +1,8 @@
 {
   "notebook": "UAF_Experiments.ipynb",
-  "notebook_sha256": "f8342e891a2bfde3c7f7308ae27ecfd2aa1b456b85a19cd38e3316954172155b",
+  "notebook_sha256": "91ebff56e9116eec2868389bf733f6935ef0194ee021be276bf64020b2af8d22",
   "execution": {
-    "elapsed_seconds": 45.949457299982896,
+    "elapsed_seconds": 48.5,
     "cells": 127,
     "executed_code_cells": 68,
     "error_outputs": 0,
