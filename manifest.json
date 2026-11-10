@@ -1,0 +1,30 @@
+{
+  "notebook": "UAF_Reviewer_Evidence.ipynb",
+  "notebook_sha256": "ae51ba204cdaef84d0056e5e07fc0871b5018ba6591e6626aa8dd41a477f78b9",
+  "execution": {
+    "elapsed_seconds": 46.464601099985885,
+    "cells": 127,
+    "executed_code_cells": 68,
+    "error_outputs": 0,
+    "execution_directory": "fresh temporary directory",
+    "external_files_required": false
+  },
+  "embedded_aggregate_datasets": 57,
+  "main_tables": 12,
+  "companion_tables": 101,
+  "main_figures": 3,
+  "companion_figure_occurrences": 7,
+  "new_result_plots": 3,
+  "tested_python": "3.11.9",
+  "dependencies": {
+    "numpy": "2.4.2",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.8",
+    "ipython": "9.10.0",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.4",
+    "nbconvert": "7.17.0",
+    "ipykernel": "7.2.0"
+  }
+}

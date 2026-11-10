@@ -1,6 +1,8 @@
-# Uncertainty-Aware Fairness: reviewer evidence
+# Uncertainty-Aware Fairness
 
-Start with [UAF_Reviewer_Evidence.ipynb](UAF_Reviewer_Evidence.ipynb). It contains executable calculations, saved outputs, model and audit settings, protected-group counts, all 12 main tables, all 101 technical-companion tables, and the associated figures. It also explains how C1–C4 answer the research questions and what each experiment establishes.
+This repository accompanies the paper. The [reviewer notebook](UAF_Reviewer_Evidence.ipynb) presents C1–C4 with executable calculations, saved outputs and explanations of the research questions, methods and findings.
+
+It includes model and audit settings, protected-group counts, all 12 main tables, all 101 technical-companion tables, and the associated figures. The sections follow the study from audit decisions and source sensitivity through evidence allocation and policy review.
 
 For a reading copy without visible code, download [UAF_Reviewer_Evidence.html](UAF_Reviewer_Evidence.html) and open it in a browser. Expand the companion sections to see their protocols, derivations and exhibits. Equation rendering in the HTML copy may require an internet connection; notebook computation does not.
 
@@ -19,22 +21,10 @@ Open the notebook in Jupyter or another notebook editor, select the **UAF review
 jupyter nbconvert --to notebook --execute UAF_Reviewer_Evidence.ipynb --ExecutePreprocessor.kernel_name=uaf-review --ExecutePreprocessor.timeout=600 --output UAF_Reviewer_Evidence_rerun.ipynb
 ```
 
-The notebook is self-contained. Aggregate inputs and figures are embedded, and no account, credentials, patient-level records or external dataset files are needed. Installing packages is the only step that requires access to a package repository. Runtime varies by machine; the recorded clean-folder run completed in about 36 seconds.
+The notebook is self-contained: aggregate inputs and figures are embedded. After installing the dependencies, execution requires no account, credentials, network connection or external dataset files.
 
-## What is checked
+## Notebook contents
 
-- All 68 code cells completed without errors in a fresh temporary directory.
-- Seventeen assertion groups passed, including 317 checks against printed numerical cells in main Tables III–XII, using each cell's displayed precision.
-- All 234 independent-count family forecasts and 42,000 exact pooled policy decisions are recalculated.
-- C2 conditional calculations and an exhaustive small-instance check of the C3 allocation recurrence are executed.
-- Matched-method, planning and alternative policy-review summaries are reconstructed from frozen aggregate experiment records.
+Running the notebook recalculates exact count-law probabilities, conditional source quantities, an allocation-algorithm example and exact pooled policy decisions. The remaining tables are reconstructed from included aggregate experiment records; model fits and runtime benchmarks are provided as recorded results.
 
-The notebook distinguishes fresh calculations, reaggregation of recorded experiments, and displayed historical evidence. Displaying a saved table is not a rerun of the experiment that produced it. Historical variants remain labelled separately from the current results.
-
-## Paper agreement and scope
-
-[verification.json](verification.json) records the executed notebook checksum, tested environment, scope and SHA-256 fingerprints of the exact main-paper and companion PDF snapshots checked. The main snapshot is the 10 November 2026 professor-review PDF. If either manuscript changes, repeat the agreement checks before treating this package as aligned with that new version.
-
-Raw cohort extraction, model retraining, full clinical allocation simulations and the original runtime benchmarks are not rerun here. The computational checks do not establish independent validation on new hospitals or prospective clinical benefit. Recorded inconclusive, adverse and sensitivity findings are retained.
-
-No patient-level data are included. Dataset access conditions continue to apply to reconstruction from original clinical records. No reuse licence is granted by this repository.
+[manifest.json](manifest.json) lists the package contents, software environment and notebook checksum. No patient-level data are distributed; access to the original clinical datasets remains subject to their providers' conditions.
